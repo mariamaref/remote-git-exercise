@@ -1,0 +1,132 @@
+
+AUC@DESKTOP-R0IL9P4 MINGW64 ~ (main)
+$ git config --global user.name "mariamaref"
+
+AUC@DESKTOP-R0IL9P4 MINGW64 ~ (main)
+$ git config --global user.email "mariamaref22@aucegypt.edu"
+
+AUC@DESKTOP-R0IL9P4 MINGW64 ~ (main)
+$ cd 'C:\Users\AUC\OneDrive\Desktop\git-exercise'
+
+AUC@DESKTOP-R0IL9P4 MINGW64 ~/OneDrive/Desktop/git-exercise (main)
+$ git init
+Initialized empty Git repository in C:/Users/AUC/OneDrive/Desktop/git-exgit/
+
+AUC@DESKTOP-R0IL9P4 MINGW64 ~/OneDrive/Desktop/git-exercise (main)
+$ git add .
+
+AUC@DESKTOP-R0IL9P4 MINGW64 ~/OneDrive/Desktop/git-exercise (main)
+$ git commit -m "added an empty main function inside add.cpp"
+[main (root-commit) fa513ab] added an empty main function inside add.cpp
+ 10 files changed, 204 insertions(+)
+ create mode 100644 Project1/.vs/Project1/FileContentIndex/5283bd32-134729-9b0eb60a5491.vsidx
+ create mode 100644 Project1/.vs/Project1/FileContentIndex/read.lock
+ create mode 100644 Project1/.vs/Project1/v17/.suo
+ create mode 100644 Project1/.vs/Project1/v17/Browse.VC.db
+ create mode 100644 Project1/Project1.sln
+ create mode 100644 Project1/Project1/Project1.vcxproj
+ create mode 100644 Project1/Project1/Project1.vcxproj.filters
+ create mode 100644 Project1/Project1/Project1.vcxproj.user
+ create mode 100644 add.cpp
+ create mode 100644 add.cpp.txt
+
+AUC@DESKTOP-R0IL9P4 MINGW64 ~/OneDrive/Desktop/git-exercise (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+AUC@DESKTOP-R0IL9P4 MINGW64 ~/OneDrive/Desktop/git-exercise (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   add.cpp
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AUC@DESKTOP-R0IL9P4 MINGW64 ~/OneDrive/Desktop/git-exercise (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+AUC@DESKTOP-R0IL9P4 MINGW64 ~/OneDrive/Desktop/git-exercise (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   add.cpp
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AUC@DESKTOP-R0IL9P4 MINGW64 ~/OneDrive/Desktop/git-exercise (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+AUC@DESKTOP-R0IL9P4 MINGW64 ~/OneDrive/Desktop/git-exercise (main)
+$ git commit -m "added an empty main function inside add.cpp"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   add.cpp
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AUC@DESKTOP-R0IL9P4 MINGW64 ~/OneDrive/Desktop/git-exercise (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   add.cpp
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+AUC@DESKTOP-R0IL9P4 MINGW64 ~/OneDrive/Desktop/git-exercise (main)
+$ git add .
+
+AUC@DESKTOP-R0IL9P4 MINGW64 ~/OneDrive/Desktop/git-exercise (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   add.cpp
+
+
+AUC@DESKTOP-R0IL9P4 MINGW64 ~/OneDrive/Desktop/git-exercise (main)
+$ git commit -m "added the addition part inside add.cpp"
+[main 6860074] added the addition part inside add.cpp
+ 1 file changed, 3 insertions(+)
+
+AUC@DESKTOP-R0IL9P4 MINGW64 ~/OneDrive/Desktop/git-exercise (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+AUC@DESKTOP-R0IL9P4 MINGW64 ~/OneDrive/Desktop/git-exercise (main)
+$ git log
+commit 6860074a9e14bde859b134925c29116b44a64822 (HEAD -> main)
+Author: mariamaref <mariamaref22@aucegypt.edu>
+Date:   Mon Sep 11 18:55:43 2023 +0300
+
+    added the addition part inside add.cpp
+
+commit fa513abd9e45ff57f0ecd145b29a40810a64f621
+Author: mariamaref <mariamaref22@aucegypt.edu>
+Date:   Mon Sep 11 18:44:09 2023 +0300
+
+    added an empty main function inside add.cpp
+
+AUC@DESKTOP-R0IL9P4 MINGW64 ~/OneDrive/Desktop/git-exercise (main)
+$ git log --oneline
+6860074 (HEAD -> main) added the addition part inside add.cpp
+fa513ab added an empty main function inside add.cpp
+
+AUC@DESKTOP-R0IL9P4 MINGW64 ~/OneDrive/Desktop/git-exercise (main)
